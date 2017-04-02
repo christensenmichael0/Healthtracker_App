@@ -1,15 +1,23 @@
-# Calorie Tracker
-###Code by Michael Christensen
-**Uses Backbone.js, jQuery, and Nutritionix API**
+# Calorie and Fat Tracker Application
+Michael Christensen
+April 2017
 
-Application allows user to create a list of food items, tracking total calories.
+Front End Web Development Nanodegree Elective Project
+------------------------------------------------
 
-###The Project
-A single-page web application, built using the Backbone framework, that allows users to search for foods using the Nutritionix API.  These foods can be added to a list, which then uses LocalStorage to keep track between visits.
+### Tools Utilized
+* Backbone.js 
+* jQuery 
+* Grunt.js
+* Nutritionix API
 
-###Running the Program
-Download the folder and all its files, then double click on 'index.html'.
-**OR**
-Go to the [github page](http://christensenmichael0.github.io/healthtracker/) to view.
+### Project Description
+This application allows users to search for and select foods they have had to eat. The purpose is to track total calories (KCal) and total fat (g). LocalStorage is used to keep track of selected foot items between visits.
 
-This project is part of Udacity's Front-End Nanodegree program.
+### How to Run
+Navigate to (https://github.com/christensenmichael0/Healthtracker_App) and download/clone the repository. Double click on 'index.html' to run locally
+
+OR
+
+Go to my [website](http://christensenmichael0.github.io/Healthtracker_App/) to view.
+
