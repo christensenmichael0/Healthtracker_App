@@ -103,7 +103,6 @@ tfoot {
 
 
 .delete {
-	color: #777;
 	padding-left: 5px;
 	cursor: pointer;
 }
@@ -114,14 +113,13 @@ tfoot {
 
 /* Buttons */
 button {
-	width: 80px;
+	/*width: 80px;*/
 	color: black;
 	background-color: #ebebe0;
 	border-radius: 5px;
-	text-align: center;
+	align-items: center;
 
 }
-
 
 button:hover {
 	cursor: pointer;
@@ -129,10 +127,14 @@ button:hover {
 }
 
 #search-button {
-	margin-top: 10px;
 	height: 45px;
 	margin: 3px;
 	font-size: 1.1em;
+}
+
+#search-button:hover {
+	cursor: pointer;
+	background-color: #d7d7c1;
 }
 
 
