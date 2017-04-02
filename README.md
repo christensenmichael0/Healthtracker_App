@@ -1,10 +1,9 @@
 # Calorie and Fat Tracker Application
+Front End Web Development Nanodegree Elective Project
 Michael Christensen
 April 2017
 
-Front End Web Development Nanodegree Elective Project
 ------------------------------------------------
-
 ### Tools Utilized
 * Backbone.js 
 * jQuery 
