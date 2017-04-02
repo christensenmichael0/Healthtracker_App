@@ -1,6 +1,6 @@
 # Calorie and Fat Tracker Application
-Front End Web Development Nanodegree Elective Project
-Michael Christensen
+Front End Web Development Nanodegree Elective Project,
+Michael Christensen,
 April 2017
 
 ------------------------------------------------
