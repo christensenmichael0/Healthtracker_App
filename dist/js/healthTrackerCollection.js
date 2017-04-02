@@ -1,0 +1,1 @@
+var app=app||{};app.Food=Backbone.Model.extend({defaults:{name:"",calories:0,total_fat:0,saturated_fat:0}});var FoodList=Backbone.Collection.extend({model:app.Food,localStorage:new Backbone.LocalStorage("healthtracker-backbone"),nextOrder:function(){return this.length?this.last().get("order")+1:1},comparator:function(a){return a.get("order")}});app.Foods=new FoodList;

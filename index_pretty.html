@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Calorie and Fat Tracker - Michael Christensen, Front-End Web Development</title>
+	<link rel="stylesheet" href="dist/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Nutrition Tracker</h1>
+		<p>Keep track of your total calorie and fat intake</p>
+		<form>
+			<input id="search" placeholder="What did you eat?" autofocus><button id="search-button">Search</button>
+			<ul class="search-results">
+			</ul>
+		</form>
+	</header>
+
+	<main>
+		<table class="food-table">
+			<thead>
+				<tr>
+					<td class="align-left">Food</td>
+					<td class="align-right">Total Fat</td>
+					<td class="align-right">Calories</td>
+				</tr>
+			</thead>
+			<tbody id="food-list">
+			</tbody>
+			<tfoot id="table-footer">
+				<tr>
+					<td class="align-left">Total</td>
+					<td class="fat-total align-right"></td>
+					<td class="calorie-total align-right"></td>
+				</tr>
+				<tr>
+					<td colspan=2></td>
+					<td class="align-right"><button id="reset-button">Reset</button></td>
+				</tr>
+			</tfoot>
+		</table>
+	</main>
+
+	<footer>
+		<div class="nutritionix">
+		<span class="fa fa-plug fa-custom" aria-hidden="true"></span><a class="nutrionix-link" href="http://www.nutritionix.com/api" target="_blank">  Nutritionix API</a>
+		</div>
+		<div class="author">Created by Michael Christensen</div>
+	</footer>
+
+	<script type="text/template" id="food-item-template">
+		<td class="align-left"><%= name %></td>
+		<td class="align-right"><%= total_fat %></td>
+		<td class="align-right"><%= calories %></td>
+		<td class="align-right delete">X</td>
+	</script>
+	<script type="text/template" id="result-item-template">
+		<%= brandname %> <%= name %> - <%= calories %> Calories - <%= total_fat %>g Total Fat
+	</script>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="dist/js/lib/underscore-min.js"></script>
+	<script src="dist/js/lib/backbone-min.js"></script>
+	<script src="dist/js/lib/backbone.localstorage.js"></script>
+	<script src="dist/js/healthTrackerCollection.js"></script>
+	<script src="dist/js/resultsCollection.js"></script>
+	<script src="dist/js/foodsView.js"></script>
+	<script src="dist/js/searchView.js"></script>
+	<script src="dist/js/resultsView.js"></script>
+	<script src="dist/js/footerView.js"></script>
+	<script src="dist/js/appStart.js"></script>
+</body>
+</html>

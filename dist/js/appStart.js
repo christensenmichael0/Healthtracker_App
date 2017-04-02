@@ -1,0 +1,1 @@
+var app=app||{};$(function(){new app.TableFooterView,new app.SearchView});

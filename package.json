@@ -1,0 +1,14 @@
+{
+  "name": "my-website-revamp",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-htmlmin": "^2.2.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-responsive-images": "^1.10.1",
+    "grunt-tinyimg": "^1.0.0"
+  }
+}
